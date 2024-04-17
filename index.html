@@ -6,46 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/c6738faafa.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/c6738faafa.js" crossorigin="anonymous"></script>
+ <!--mettre ici le code personnel de font awesome-->
+
 </head>
 
 <body>
     <main>
-    <section>
-             <header><h1>Kucra</h1>
+        <container>
+    <section> <!--page 1-->
+            <header>
                     <nav>
-                        <ul><p>FEATURES</p></ul>
-                        <ul><p>CLIENT</p></ul>
-                        <ul><p>PRICING</p></ul>
-                        <ul><p>FAQ</p></ul>
-                        <ul><p>ABOUT</p></ul>
-                        <ul><p>BLOG</p></ul>
-                        <ul><p>CONTACT</p></ul>
-                        <ul><i class="fa-brands fa-facebook-f"></i></ul>
-                        <ul><i class="fa-brands fa-twitter"></i></ul>
-                        <ul><i class="fa-brands fa-instagram"></i></ul>
+                        <titre>
+                            <ul><h1>Kucra</h1></ul>
+                        </titre>
+                        <menu>
+                            <ul><p>HOME</ul></p></ul>
+                            <ul><p>FEATURES</ul></p></ul>
+                            <ul><p>CLIENT</p></ul>
+                            <ul><p>PRICING</p></ul>
+                            <ul><p>FAQ</p></ul>
+                            <ul><p>ABOUT</p></ul>
+                            <ul><p>BLOG</p></ul>
+                            <ul><p>CONTACT</p></ul>
+                        </menu>
+                        <icones>
+                            <ul><i class="fa-brands fa-facebook-f"></i></ul>
+                            <ul><i class="fa-brands fa-twitter"></i></ul>
+                            <ul><i class="fa-brands fa-instagram"></i></ul>
+                        </icones>
                     </nav>
-            </header>  
+            </header>
             <article>
-                <h3>We are StartUp Creative Kucra Agency</h3>
-                <p>
-                Carefully crafted after analysing the needs of different industries and the design achieves a great balance between purpose & presentation
-                </p>
+                <aside>
+                    <h3>We are StartUp Creative Kucra Agency</h3>
+                    <p>
+                    Carefully crafted after analysing the needs of different industries and the design achieves a great balance between purpose & presentation
+                    </p>
+                    <action>
+                        <input type="email" id="email" pattern=".+@example\.com" size="35" required />
+                        <button>SUBSCRIBE</button>
+                    </action>
+                </aside>
+                <img src="img/illustration.svg" alt="Image" style="width:700px;height:700px;padding-right:100px;" />
             </article>
-            <button>Enter your email</button>
-            <button>SUBSCRIBE</button>
-            <aside>
-                <figure>
-                    <img src="img/illustration.svg" alt="image principale" />
-                </figure>
-            </aside>
     </section>
-    <div> 
-        <article>
+    <div> <!--page 2-->
+        <product>
             <h3><center>Products Features</center></h3>
-            <p>It is a long established fact that a reader will be of a page when <br> established fact looking at its layout.</p>
-        </article>
+            <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+        </product>
     </div>
+    <!--page 3-->
+    </container>
 </main>
     
 </body>
