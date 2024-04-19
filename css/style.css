@@ -2,6 +2,7 @@
 
 :root {
     --padding: 20px;
+    font-family: poppins, sans-serif;
 }
 
 #section1  { 
@@ -88,7 +89,7 @@ article {
 
 button {
     background-color: rgb(81, 161, 231);
-    border-radius: 15px;
+    border-radius: 50px;
     font-family: verdana;
     padding: 5px;
     color: white;
@@ -97,12 +98,50 @@ button {
 }
 
 form {
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: : wrap;
     justify-content: space-between ; 
     margin: 50 0 50 0;
+}
+
+
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3% 3%;
+    border-radius: 50%;
+    resize: none;
+    color: #000;
+    border: none;
+    background: none;
+    /* background-color: rgb(191, 223, 233); */
+    /* border: 0cap; */
+  }
+ 
+input[type=submit] {
+    background-color: rgb(15, 112, 150);
+    border-radius: 60px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-left: 100%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 50%;
+}
+ 
+input[type=email]:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+ 
+input[type=submit]:hover{
+    background-color: rgb(104, 167, 192);
 }
 
 h4  {
@@ -119,7 +158,8 @@ h4  {
     text-align: center;
     padding: var(--padding);
     margin-top: 70px;
-    font-family: verdana;
+    font-family: verdana, sans-serif;;
+    word-wrap: normal;
 }
 
 #container {
@@ -184,3 +224,76 @@ h5  {
     font-family: verdana;
 }
 
+.presentationteam {
+    color: rgb(132, 134, 136);
+}
+
+.stat {
+    color: rgb(15, 51, 87);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.stat-text {
+    color: rgb(132, 134, 136);
+    word-wrap: normal;
+}
+
+.photo{
+    width : 80px;
+    height : 80px;
+    border: none;
+    border-radius: 50%;
+  }
+
+.box {
+    width : 160px;
+    height : 160px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 25px;
+    background-size: 100% 100%; 
+    background-color: blanchedalmond;
+    background-image: ;
+    display: flex;
+    flex-wrap: : wrap;
+    justify-content: space-between;
+}
+
+.equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    padding: 30px; 
+}
+ 
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-direction: column;
+    color: rgb(79, 116, 238);
+}
+
+.logo {
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.card-header {
+    border-radius: 50%;
+
+}
