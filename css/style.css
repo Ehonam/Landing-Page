@@ -27,7 +27,7 @@ nav {
 }
 
 p:hover {
-    transform: translateY(-5px);
+    transform: translateY(-1px);
 }
 
 menu {
@@ -248,28 +248,6 @@ h5 {
     word-wrap: normal;
 }
 
-.photo {
-    width: 80px;
-    height: 80px;
-    border: none;
-    border-radius: 50%;
-}
-
-.box {
-    width: 160px;
-    height: 160px;
-    border: none;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 25px;
-    background-size: 100% 100%;
-    background-color: blanchedalmond;
-    background-image: ;
-    display: flex;
-    flex-wrap: : wrap;
-    justify-content: space-between;
-}
-
 .equipe {
     display: flex;
     flex-wrap: wrap;
@@ -282,6 +260,35 @@ h5 {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px;
+    overflow: hidden;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 25px;
+    background-size: 100% 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: : wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.member:hover {
+    transform: scale(1.1);
+    filter: grayscale(1);
 }
 
 .logos {
@@ -302,6 +309,11 @@ h5 {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    filter: grayscale(1);
 }
 
 .trio {
