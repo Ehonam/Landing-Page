@@ -261,6 +261,12 @@ h5 {
     justify-content: space-around;
     padding: 50px;
     overflow: hidden;
+    filter: grayscale(1)
+}
+
+.member:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
 }
 
 .box {
@@ -284,10 +290,6 @@ h5 {
     border: none;
     border-radius: 50%;
     overflow: hidden;
-}
-
-.member:hover {
-    transform: scale(1.1);
     filter: grayscale(1);
 }
 
@@ -296,8 +298,9 @@ h5 {
     flex-wrap: wrap;
     justify-content: start;
     flex-direction: column;
-    align-items: flex-end;
     color: rgb(79, 116, 238);
+    left: 0;
+    opacity: 1;
 }
 
 .logo {
@@ -309,11 +312,12 @@ h5 {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    filter: grayscale(1)
 }
 
 .logo:hover {
     transform: scale(1.1);
-    filter: grayscale(1);
+    filter: grayscale(0);
 }
 
 .trio {
