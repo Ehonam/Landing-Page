@@ -5,253 +5,245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/c6738faafa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    
     <!--mettre ici le code personnel de font awesome-->
 
 </head>
 
 <body>
     <header>
-        <a href="#">
-            <h1>Kucra</h1>
-        </a>
         <nav>
-            <ul=id "menu">
-                <li><a href="#">
-                        HOME
-                    </a></li>
-                <li><a href="#">
-                        FEATURES
-                    </a></li>
-                <li><a href="#">
-                        CLIENT
-                    </a></li>
-                <li><a href="#">
-                        PRICING
-                    </a></li>
-                <li><a href="#">
-                        FAQ
-                    </a></li>
-                <li><a href="#">
-                        ABOUT
-                    </a></li>
-                <li><a href="#">
-                        BLOG
-                <li><a href="#">
-                        CONTACT
-                    </a></li>
-                </ul>
-                <ul=id"reseaux"> <!--copier coller ici le code de chaque font awesome-->
-                    <li><a href="#">
-                            <i class="fa-brands fa-facebook-f">
-                        </a></li>
-                    <li><a href="#">
-                            <i class="fa-brands fa-twitter">
-                        </a></li>
-                    <li><a href="#">
-                            <i class="fa-brands fa-instagram">
-                        </a></li>
-                    </ul>
+            <div>
+            <a href="home" class="nodeco"><h1>Kucra</h1></a></div>
+            <div><ul>
+                <li><a href="home" class="nodeco">HOME</a></li>
+                <li><a href="features" class="nodeco">FEATURES</a></li>
+                <li><a href="client" class="nodeco">CLIENT</a></li>
+                <li><a href="pricing" class="nodeco">PRICING</a></li>
+                <li><a href="faq" class="nodeco">FAQ</a></li>
+                <li><a href="about" class="nodeco">ABOUT</a></li>
+                <li><a href="blog" class="nodeco">BLOG</a><li>
+                <li><a href="contact" class="nodeco">CONTACT</a></li>
+            </ul></div>
+            <div><ul> <!--copier coller ici le code de chaque font awesome-->
+                <li><a href="facebook" class="nodeco"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="twitter" class="nodeco"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="instagram" class="nodeco"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul></div>
         </nav>
     </header>
     <main>
-        <div id="presentation">
-            <!--page 1-->
-
+        <div id="home"> <!--page 1-->
             <article>
-                <h3>We are StartUp Creative Kucra Agency</h3>
-                <p>
-                    Carefully crafted after analysing the needs of different industries and the design achieves
-                    a great balance between purpose & presentation
-                </p>
-                <form>
-                    <h4><input type="email" id="email" placeholder="Enter your email" pattern=".+@example\.com"
-                            size="52" required /></h4>
-                    <button>SUBSCRIBE</button>
-                </form>
-            </article>
-            <figure>
-                <img src="img/illustration.svg" alt="illustration écran de commande" />
-            </figure>
+                    <div><h2>We are StartUp Creative Kucra Agency</h2>
+                    <p>
+                        Carefully crafted after analysing the needs of different industries and the design achieves
+                        a great balance between purpose & presentation
+                    </p>
+                    <form>
+                        <input type="email" id="email" placeholder="Enter your email" pattern=".+@example\.com" size="30" required />
+                        <button>SUBSCRIBE</button>
+                    </form></div>
+                    <figure>
+                        <img src="img/illustration.svg" alt="illustration écran de commande" >
+                    </figure>
+            </article> 
         </div>
 
-        <div id="products"> <!--page 2-->
-            <div>
+        <div id="features"> <!--page 2-->
+            <article>
                 <h2>Products Features</h2>
                 <p>It is a long established fact that a reader will be of a page when established fact looking at
                     its layout.</p>
-            </div>
-            <div id="container">
+                </article>
+            <div id="box1">
                 <article>
-                    <i class="fa-solid fa-globe" style=" color: white"></i>
+                    <i class="fa-solid fa-globe"></i>
                     <div class="card-text">
                         <h2>Digital Design</h2>
                         <p>
                             Some quick example text to build on the card title and make up the bulk of the card the
                             platform.
                         </p>
+                    </div>    
                 </article>
             </div>
-            <div id="container">
+            <div id="box2">
                 <article>
-                    <i class="fa-solid fa-brush" style=" color: white"></i>
+                    <i class="fa-solid fa-brush"></i>
                     <div class="card-text">
                         <h2>Unlimited Colors</h2>
                         <p>
                             Credibly brand stanaods compliant user exteible services College Anibh ocean euismod
                             tincidunt laoreet.
                         </p>
+                    </div>
                 </article>
             </div>
-            <div id="container">
+            <div id="box3">
                 <article>
-                    <i class="fa-solid fa-brush" style=" color: white"></i>
+                    <i class="fa-solid fa-brush"></i>
                     <div class="card-text">
                         <h2>Stategy Solutions</h2>
                         <p>
                             Separated they live in Bookmarks grove right at the coast of the Semantics, a large
                             ocean regelialia
                         </p>
+                    </div>
                 </article>
             </div>
-            <div>
+            <article>
                 <h2>How It Works ?</h2>
                 <p>It is a long established fact that a reader will be of a page when established fact looking at
                     its layout.</p>
-            </div>
+            </article>
         </div>
-        <div id="equipe"> <!--page 3-->
-            <h2>We're dynamic team of talented people of innovative & marketing expert</h2>
-            <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common
-                words. If several languages of the resulting language.
-            </p>
-        </div class="member">
-        <div>
-            <h2>+1499</h2>
-            <p>complete projects</p>
-        </div>
-        <figure>
-            <img src="img/person1.png" alt="Anna" />
-            <div class=" trio">
-                <div class="logos">
-                    <div class="logo">
-                        <a href="">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </div>
-                    <div class="logo">
-                        <a href="">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div class="logo">
-                        <a href="">
-                            <i class="fa-brands fa-skype"></i>
-                        </a>
-                    </div>
+        <div id="client"> <!--page 3-->
+            <article>
+                <h2>We're dynamic team of talented people of innovative & marketing expert</h2>
+                <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common
+                    words. If several languages of the resulting language.
+                </p>
+            </article>
+            <div class="member">
+                <div>
+                    <h2>+1499</h2>
+                    <p>complete projects</p>
                 </div>
-        </figure>
-        <div>
-            <h2>Anna G. Wilhite</h2>
-            <p>CEO/Founder</p>
-        </div>
-        </div>
-        <div class="member">
-            <div>
-                <h2>+1080K</h2>
-                <p>Satisfied Clients</p>
-            </div>
-            <figure>
-                <img src="img/person2.png" alt="William" />
-                <div class=" trio">
-                    <div class="logos">
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-skype"></i>
-                            </a>
+                <figure>
+                    <img src="img/person1.png" alt="Anna">
+                    <div class="trio">
+                        <div class="logos">
+                            <div class="logo">
+                                <a href="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="skype">
+                                    <i class="fa-brands fa-skype"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-            </figure>
-            <div>
-                <h2>William S. Blay</h2>
-                <p>CTO/Co-Founder</p>
+                </figure>
+                <div>
+                    <h2>Anna G. Wilhite</h2>
+                    <p>CEO/Founder</p>
+                </div>
             </div>
-        </div>
-        <div class="member">
-            <div>
-                <h2>+608</h2>
-                <p>Team Members</p>
-            </div>
-            <figure>
-                <img src="img/person3.png" alt="Maria" />
-                <div class=" trio">
-                    <div class="logos">
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-skype"></i>
-                            </a>
+            <div class="member">
+                <div>
+                    <h2>+1080K</h2>
+                    <p>Satisfied Clients</p>
+                </div>
+                <figure>
+                    <img src="img/person2.png" alt="William">
+                    <div class="trio">
+                        <div class="logos">
+                            <div class="logo">
+                                <a href="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="skype">
+                                    <i class="fa-brands fa-skype"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-            </figure>
-            <div>
-                <h2>Maria B. Morales</h2>
-                <p>Web Designer</p>
+                </figure>
+                <div>
+                    <h2>William S. Blay</h2>
+                    <p>CTO/Co-Founder</p>
+                </div>
             </div>
-        </div>
-        <div class="member">
-            <div>
-                <h2>252</h2>
-                <p>Employee</p>
-            </div>
-            <figure>
-                <img src="img/person4.png" alt="Luke" />
-                <div class=" trio">
-                    <div class="logos">
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="">
-                                <i class="fa-brands fa-skype"></i>
-                            </a>
+            <div class="member">
+                <div>
+                    <h2>+608</h2>
+                    <p>Team Members</p>
+                </div>
+                <figure>
+                    <img src="img/person3.png" alt="Maria">
+                    <div class="trio">
+                        <div class="logos">
+                            <div class="logo">
+                                <a href="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="skype">
+                                    <i class="fa-brands fa-skype"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-            </figure>
-            <div>
-                <h2>Luke L. Johnston</h2>
-                <p>Web Developer</p>
+                </figure>
+                <div>
+                    <h2>Maria B. Morales</h2>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+            <div class="member">
+                <div>
+                    <h2>252</h2>
+                    <p>Employee</p>
+                </div>
+                <figure>
+                    <img src="img/person4.png" alt="Luke">
+                    <div class="trio">
+                        <div class="logos">
+                            <div class="logo">
+                                <a href="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="logo">
+                                <a href="skype">
+                                    <i class="fa-brands fa-skype"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+                <div>
+                    <h2>Luke L. Johnston</h2>
+                    <p>Web Developer</p>
+                </div>
             </div>
         </div>
-        <div>
+        <div id="pricing"> <!--page 4-->
+
+        </div>
     </main>
+    <footer>
+
+    </footer>
+    
 </body>
 
 </html>
