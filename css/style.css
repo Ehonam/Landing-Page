@@ -1,13 +1,13 @@
-/* BASIC CSS OF THE PROJECT ....................................................................*/ 
+/* BASIC CSS OF THE PROJECT ....................................................................*/
 
 
- @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
- *{
-  box-sizing: border-box;
-  padding: 0;
-  margin : 0;
-  font-family: 'Poppins'
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins'
 }
 
 :root {
@@ -15,19 +15,18 @@
     --blanc: white;
 }
 
-#wrapper{
+#wrapper {
     min-height: 100vh;
     gap: 20px;
     background: var(--degrader)
-    
 }
 
-/* HEADER CSS ..................................................................................*/ 
+/* HEADER CSS ..................................................................................*/
 
-topheader{
+header {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     color: white;
     padding-top: 20px;
@@ -35,32 +34,38 @@ topheader{
     font-size: large;
 }
 
-topheader .navbar{
+header .navbar {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
+#navbarphone {
+    display: none;
+}
 
-topheader a{
+header a {
     color: white;
 }
 
-topheader a:link { 
-    text-decoration: none; 
-} 
-topheader a:visited { 
-    text-decoration: none; 
-} 
-headerhead a:hover { 
-    text-decoration: none; 
-} 
-topheader a:active { 
-    text-decoration: none; 
+header a:link {
+    text-decoration: none;
 }
 
-.menu{
+header a:visited {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a:active {
+    text-decoration: none;
+}
+
+.menu {
     display: none;
 }
 
@@ -71,14 +76,14 @@ topheader a:active {
 }
 
 .nodeco:hover {
-    color:rgba(11, 51, 230, 0.993);
+    color: rgba(11, 51, 230, 0.993);
     transform: scale(1.1);
 }
 
-/* MAIN CSS  ...................................................................................*/ 
+/* MAIN CSS  ...................................................................................*/
 
 
-downheader{
+headermain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,24 +94,24 @@ downheader{
     width: 100%;
 }
 
-.hautdepage{
+.hautdepage {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.hautdepage article{
+.hautdepage article {
     box-sizing: border-box;
     padding-right: 100px;
 }
 
-.hautdepage h1{
+.hautdepage h1 {
     font-size: 50px;
-    color:#1f1b1b;
+    color: #1f1b1b;
 }
 
-.hautdepage p{
+.hautdepage p {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #1f1b1b;
@@ -129,7 +134,7 @@ input[type=text] {
     color: #000;
     border: none;
     background: none;
-  }
+}
 
 input[type=submit] {
     background-color: rgb(24, 59, 73);
@@ -150,24 +155,24 @@ input[type=text]:focus {
     outline: none;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     background-color: rgb(104, 167, 192);
 }
 
-/* PRODUCT FEATURES & CARDS CSS ................................................................................*/  
+/* PRODUCT FEATURES & CARDS CSS ................................................................................*/
 
 
-.ProductsFeatures{
-    text-align:center;
+.ProductsFeatures {
+    text-align: center;
     color: black;
     padding-top: 45px;
     padding-bottom: 40px;
 }
 
 
-.ProductsFeatures h1{
+.ProductsFeatures h1 {
     font-size: 200%;
-    text-align:center;
+    text-align: center;
     color: black;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -175,25 +180,25 @@ input[type=submit]:hover{
     padding-right: 30%;
 }
 
-.ProductsFeatures p{
+.ProductsFeatures p {
     display: flex;
     font-size: 150%;
     justify-content: center;
     align-items: center;
-    color:rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
     padding-top: 15px;
     padding-left: 30%;
     padding-right: 30%;
 }
 
-.container{
-    display:flex;
-    justify-content:center;
+.container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.card{
+.card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     box-sizing: border-box;
     background: var(--degrader);
@@ -204,40 +209,40 @@ input[type=submit]:hover{
     transition: 0.5s;
 }
 
-.card:hover{
+.card:hover {
     transform: translate(0px, -10px);
     transition: 0.5s;
 }
 
-.icons{
-    display:flex;
+.icons {
+    display: flex;
     color: white;
-    justify-content:center;
+    justify-content: center;
     font-size: 250%;
     padding-bottom: 5%;
 }
 
-.card-text{
+.card-text {
     color: white;
     text-align: center;
 }
 
-.card-text h1{
+.card-text h2 {
     padding-top: 5px;
     padding-bottom: 7px;
 }
 
-/* TEAM CSS ................................................................................*/  
+/* TEAM CSS ................................................................................*/
 
-.teams{
-    text-align:center;
+.teams {
+    text-align: center;
     padding-top: 45px;
     padding-bottom: 40px;
 }
 
-.teams h1{
+.teams h2 {
     font-size: 200%;
-    text-align:center;
+    text-align: center;
     color: black;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -245,25 +250,25 @@ input[type=submit]:hover{
     padding-right: 30%;
 }
 
-.teams p{
+.teams p {
     font-size: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
     padding-top: 15px;
     padding-left: 30%;
-    padding-right: 30%; 
+    padding-right: 30%;
 }
 
-.team{
-    display:flex;
-    justify-content:center;
+.team {
+    display: flex;
+    justify-content: center;
     gap: 40px;
     height: 500px;
 }
 
-.pdp{
+.member {
     box-sizing: border-box;
     text-align: center;
     height: 100%;
@@ -271,14 +276,15 @@ input[type=submit]:hover{
     padding-left: 2%;
     padding-right: 2%;
     transition: 0.5s;
-   }
+}
 
-.pp{
+.portrait {
     border-radius: 200px;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
-.pp img{
+
+.portrait img {
     box-sizing: border-box;
     filter: grayscale(1);
     transition: 0.5s;
@@ -287,30 +293,31 @@ input[type=submit]:hover{
     position: relative;
 }
 
-.pdp img:hover{
+.member img:hover {
     transform: scale(1.1);
     filter: grayscale(0);
     transition: 0.5s;
 }
 
-.pdp-text1{
+.member-text1 {
     padding-bottom: 17%;
 }
 
-.pdp-text1 p small{
+.member-text1 p small {
     color: rgb(0, 0, 0);
     text-align: center;
 }
-.pdp img{
+
+.member img {
     width: 100%;
 }
 
-.pdp-text2 p small{
+.member-text2 p small {
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.reseaux{
+.reseaux {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -325,7 +332,7 @@ input[type=submit]:hover{
     height: 10%;
 }
 
-.reseaux li{
+.reseaux li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,40 +343,43 @@ input[type=submit]:hover{
     border-radius: 50%;
 }
 
-.pp:hover .reseaux{
+.portrait:hover .reseaux {
     transform: translate(180%, 250%);
     opacity: 1;
     transition: 0.5s;
-  
-  }
 
-.pp a{
+}
+
+.portrait a {
     color: black;
     justify-content: center;
     align-items: center;
 }
 
-.pp a:link { 
-    text-decoration: none; 
-} 
-.pp a:visited { 
-    text-decoration: none; 
-} 
-.pp a:hover { 
-    text-decoration: none; 
-} 
-.pp a:active { 
-    text-decoration: none; 
+.portrait a:link {
+    text-decoration: none;
 }
 
-/* PARALLAX CSS ................................................................................*/  
+.portrait a:visited {
+    text-decoration: none;
+}
+
+.portrait a:hover {
+    text-decoration: none;
+}
+
+.portrait a:active {
+    text-decoration: none;
+}
+
+/* PARALLAX CSS ................................................................................*/
 
 
 .parallax {
     position: relative;
-    background-image:url("img/parallax.png");
+    background-image: url("img/parallax.png");
     background-color: rgb(0, 0, 0, 1.5);
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,28 +390,28 @@ input[type=submit]:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .parallax-text {
+.parallax-text {
     position: absolute;
     text-align: center;
-  }
+}
 
-  .overlay {
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     background: #0000008a;
-  }
+}
 
-.sectionParallax h2{
+.sectionParallax h1 {
     text-align: center;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.parallax p{
+.parallax p {
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -419,28 +429,30 @@ input[type=submit]:hover{
     cursor: pointer;
     transition: 0.7s;
     opacity: 50%;
-  }
+}
 
-.parallax input:hover{
-    background:#fff;
+.parallax input:hover {
+    background: #fff;
     transform: translate(0px, -3px);
     transition: 0.7s;
     color: black;
     opacity: 100%;
 }
 
-/* BLOG CSS ................................................................................*/  
+
+/* BLOG CSS ................................................................................*/
 
 
-.blog{
-    text-align:center;
+.blog {
+    text-align: center;
     color: black;
     padding-top: 45px;
     padding-bottom: 40px;
 }
 
-.blog h2{
-    text-align:center;
+
+.blog h2 {
+    text-align: center;
     color: black;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -449,70 +461,75 @@ input[type=submit]:hover{
     font-size: 200%;
 }
 
-.blog p{
+.blog p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgb(46, 46, 46);
+    color: rgb(46, 46, 46);
     padding-top: 15px;
     padding-left: 30%;
     padding-right: 30%;
     font-size: 150%;
 }
 
-.containerblog{
-    display:flex;
-    justify-content:center;
+
+.containerblog {
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
     gap: 50px;
 }
 
-.cardblog{
+.cardblog {
     box-sizing: border-box;
     border-radius: 10px;
     transition: 0.5s;
     width: 25%;
 }
 
-.cardblog img{
+.cardblog img {
     background-color: black;
     width: 100%;
     border-radius: 6px;
     transition: 0.5s;
 }
 
-.card-textblog h2{
+.card-textblog h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.card-textblog p{
+.card-textblog p {
     color: grey;
     padding-bottom: 10px;
 }
 
-.card-textblog a{
+.card-textblog a {
     color: rgb(0, 80, 145);
 }
 
-.card-textblog a:link { 
-    text-decoration: none; 
-} 
-.card-textblog a:visited { 
-    text-decoration: none; 
-} 
-.card-textblog a:hover { 
-    text-decoration: none; 
-} 
-.card-textblog a:active { 
-    text-decoration: none; 
+.card-textblog a:link {
+    text-decoration: none;
+}
+
+.card-textblog a:visited {
+    text-decoration: none;
+}
+
+.card-textblog a:hover {
+    text-decoration: none;
+}
+
+.card-textblog a:active {
+    text-decoration: none;
 }
 
 .conteneura {
     position: relative;
 }
+
 .NameBlog {
     color: white;
     position: absolute;
@@ -521,17 +538,17 @@ input[type=submit]:hover{
     top: 0;
     opacity: 0;
     transition: 0.5s;
-    z-index: 2;   
+    z-index: 2;
     font-size: 140%;
 }
 
 .conteneura:hover img {
     filter: brightness(0.5);
-  }
-  
+}
+
 .conteneura:hover .NameBlog {
     opacity: 1;
-  }
+}
 
 .DateBlog {
     color: white;
@@ -542,64 +559,98 @@ input[type=submit]:hover{
     top: 0;
     opacity: 0;
     transition: 0.5s;
-    z-index: 2;   
+    z-index: 2;
 }
 
 .conteneura:hover .DateBlog {
     opacity: 1;
 }
-  
-/* CREATIVITY AND STATS CSS ................................................................................*/  
+
+html {
+    scroll-behavior: smooth;
+}
+
+#scrollToTopButton {
+    display: block;
+    z-index: 99;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+
+    padding: 8px;
+    background-color: none;
+}
+
+#scrollToTopButton i {
+    color: #1294b8;
+    font-size: 300%;
+}
+
+#scrollToTopButton:hover,
+#scrollToTopButton:focus,
+#scrollToTopButton:focus-within {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #0b596e;
+}
+
+/* CREATIVITY AND STATS CSS ................................................................................*/
 
 
-.creativity{
+.creativity {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left:4%;
+    padding-left: 4%;
 }
 
-.creativity img{
+.creativity img {
     width: 95%;
 }
 
-.creativity .creativityPresentation{
+.creativity .creativityPresentation {
     flex-direction: column;
     width: 60%;
 }
 
-.creativityPresentation{
+.creativityPresentation {
     justify-content: center;
     align-items: center;
 }
 
-.creativityPresentation article{
+.creativityPresentation article {
     box-sizing: border-box;
     padding-right: 5px;
 }
 
-.creativityPresentation h2{
+.creativityPresentation h2 {
     font-size: 37px;
 }
 
-.creativityPresentation article p{
+.creativityPresentation article p {
     padding-top: 30px;
     padding-bottom: 30px;
     color: rgb(46, 46, 46);
 }
 
-.creativityPresentation ul{
+.creativityPresentation ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
     gap: 10%;
 }
 
-.stats{
+.stats {
     font-size: 30px;
 }
 
-.statsName{
+.statsName {
     color: rgb(46, 46, 46);
     padding-bottom: 20%;
 }
@@ -621,22 +672,22 @@ input[type=submit]:hover{
     transform: scale(1.1);
 }
 
-/* PRICE CSS ................................................................................*/  
+/* PRICE CSS ................................................................................*/
 
 
-.ourPricing{
+.ourPricing {
     background-color: rgb(241, 241, 241);
     height: 900px;
 }
 
-.containerPricing{
-    display:flex;
-    justify-content:center;
+.containerPricing {
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.cardPricing{
+.cardPricing {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     box-sizing: border-box;
     background-color: #fff;
@@ -646,80 +697,81 @@ input[type=submit]:hover{
     transition: 0.5s;
 }
 
-.cardPricing .listing{
+.cardPricing .listing {
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
 }
 
-.right{
+.right {
     text-align: end;
 }
 
-.right p{
+.right p {
     padding: 10px 0%;
 }
 
-.left p{
+.left p {
     padding: 10px 0%;
 }
 
-.left i[title=check]{
+.left i[title=check] {
     color: green;
 }
 
-.left i[title=uncheck]{
+.left i[title=uncheck] {
     color: red;
 }
 
-.greencolor p{
+.greencolor p {
     color: #000;
 }
-.cardPricing ul{
+
+.cardPricing ul {
     list-style-type: none;
 }
 
-.cardPricing:hover{
+.cardPricing:hover {
     transform: translate(0px, -10px);
     transition: 0.5s;
 }
 
-.iconsPricing{
-    display:flex;
+.iconsPricing {
+    display: flex;
     color: white;
-    justify-content:center;
+    justify-content: center;
     font-size: 200%;
     padding-bottom: 5%;
 }
 
-.namePrice{
+.namePrice {
     text-align: center;
     font-size: 130%;
 }
 
-.price{
+.price {
     justify-content: center;
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
 }
 
-.dollarslogo{
+.dollarslogo {
     left: 10px;
     font-size: 200%;
-    color:rgb(43, 100, 255);
+    color: rgb(43, 100, 255);
     margin-bottom: 10px;
 }
 
-.dollars{
+.dollars {
     font-size: 450%;
     color: rgb(43, 100, 255);
 }
 
-.month{
+.month {
     font-size: 70%;
 }
 
-.cardPricing-text{
+.cardPricing-text {
     color: black;
     text-align: center;
 }
@@ -736,43 +788,48 @@ input[type=submit]:hover{
 }
 
 .cardPricing input[type=button]:hover {
-        transform: scale(1.1);
-}  
+    transform: scale(1.1);
+}
 
-/* FOOTER CSS ................................................................................*/  
+/* FOOTER CSS ................................................................................*/
 
-footer{
+
+footer {
     background-color: rgb(39, 33, 33);
     padding-top: 5%;
     padding-bottom: 50px;
     font-size: large;
 }
 
-footer a{
+footer a {
     color: white;
     filter: brightness(0.5);
 }
-footer a:hover{
+
+footer a:hover {
     filter: brightness(1);
 }
 
-footer a:link { 
-    text-decoration: none; 
-} 
-footer a:visited { 
-    text-decoration: none; 
-} 
-footer a:hover { 
-    text-decoration: none; 
-} 
-footer a:active { 
-    text-decoration: none; 
+footer a:link {
+    text-decoration: none;
 }
 
-footer ul{
+footer a:visited {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:active {
+    text-decoration: none;
+}
+
+footer ul {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     list-style-type: none;
     gap: 40px;
@@ -780,7 +837,7 @@ footer ul{
     color: gray;
 }
 
-footer li{
+footer li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -791,11 +848,265 @@ footer li{
     border: 1px solid gray;
 }
 
-footer li:hover{
+footer p {
+    text-align: center;
+    color: gray;
+}
+
+.iconsfooter {
     transform: scale(1.1);
 }
 
-footer p{
-    text-align:center;
-    color: gray;
+
+/* MEDIA CSS ................................................................................*/
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    #wrapper {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    /* header css ................................................................................*/
+
+
+    header .navbar {
+        display: none;
+    }
+
+    header li {
+        list-style-type: none;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+
+    #navbarphone {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        box-sizing: border-box;
+        flex-direction: column;
+        border-radius: 20px 0px 0px 20px;
+        position: absolute;
+        top: 150%;
+        right: -600%;
+        transition: 0.5s;
+        padding: 50px 100px 50px 50px;
+        background-color: rgba(2, 40, 145, 0.589);
+        backdrop-filter: blur(4px);
+    }
+
+    #navbarphone p {
+        padding-bottom: 100px;
+    }
+
+    /* main css ................................................................................*/
+
+
+    main {
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .hautdepage {
+        text-align: center;
+    }
+
+    .hautdepage h1 {
+        font-size: 40px;
+    }
+
+    .hautdepage article {
+        padding-right: 0px;
+    }
+
+    .hautdepage img {
+        width: 110%;
+    }
+
+    /* product features & cards css................................................................................*/
+
+    .ProductsFeatures h2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .ProductsFeatures p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 6% 2%;
+    }
+
+    /* team css ................................................................................*/
+
+
+    .teams h2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .teams p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    .team {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .pdp {
+        width: 50%;
+    }
+
+    .pdp-text1 h2 {
+        font-size: 200%;
+    }
+
+    .pdp-text1 p {
+        font-size: 130%;
+    }
+
+    .pp img {
+        filter: grayscale(0);
+    }
+
+    .pp img:hover {
+        transform: scale(1);
+    }
+
+    .pp .reseaux {
+        top: 30%;
+        left: 7%;
+        opacity: 1;
+
+    }
+
+    .pp:hover .reseaux {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+
+    .reseaux li {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* parallax css ................................................................................*/
+
+
+    .parallax-text {
+        padding: 0% 10%;
+    }
+
+    /* blog css ................................................................................*/
+
+
+    .blog h2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .blog p {
+        padding-top: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .containerblog {
+        flex-direction: column;
+    }
+
+    .cardblog {
+        width: 70%;
+    }
+
+    /* creativity & stats css ................................................................................*/
+
+
+    .creativity {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0%;
+    }
+
+    .creativity .creativityPresentation {
+        width: 100%;
+    }
+
+    .creativityPresentation {
+        text-align: center;
+        padding-bottom: 30px;
+        justify-content: center;
+    }
+
+    .creativityPresentation article {
+        padding: 10% 10% 10% 10%;
+        justify-content: center;
+    }
+
+    .creativityPresentation ul {
+        justify-content: center;
+    }
+
+    .creativityPresentation p {
+        font-size: 150%;
+    }
+
+    /* price css ................................................................................*/
+
+
+    .ourPricing {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .containerPricing {
+        flex-direction: column;
+    }
+
+    .cardPricing {
+        padding: 4% 5%;
+        width: 70%;
+    }
+
+    /* footer css ................................................................................*/
+
+
+    footer .iconsfooter ul {
+        gap: 20px;
+    }
+
+
+    .moreInfo {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    footer .copyright {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
