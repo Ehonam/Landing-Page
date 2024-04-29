@@ -23,7 +23,7 @@
 
 /* HEADER CSS ..................................................................................*/
 
-topheader {
+.topheader {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -34,7 +34,7 @@ topheader {
     font-size: large;
 }
 
-topheader .navbar {
+.topheader .navbar {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -45,23 +45,23 @@ topheader .navbar {
     display: none;
 }
 
-topheader a {
+.topheader a {
     color: white;
 }
 
-topheader a:link {
+.topheader a:link {
     text-decoration: none;
 }
 
-topheader a:visited {
+.topheader a:visited {
     text-decoration: none;
 }
 
-topheader a:hover {
+.topheader a:hover {
     text-decoration: none;
 }
 
-topheader a:active {
+.topheader a:active {
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ topheader a:active {
 /* MAIN CSS  ...................................................................................*/
 
 
-headermain {
+.headermain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +162,7 @@ input[type=submit]:hover {
 /* PRODUCT FEATURES & CARDS CSS ................................................................................*/
 
 
-.ProductsFeatures {
+.productsfeatures {
     text-align: center;
     color: black;
     padding-top: 45px;
@@ -170,7 +170,7 @@ input[type=submit]:hover {
 }
 
 
-.ProductsFeatures h2 {
+.productsfeatures h2 {
     font-size: 200%;
     text-align: center;
     color: black;
@@ -180,7 +180,7 @@ input[type=submit]:hover {
     padding-right: 30%;
 }
 
-.ProductsFeatures p {
+.productsfeatures p {
     display: flex;
     font-size: 150%;
     justify-content: center;
@@ -239,7 +239,7 @@ input[type=submit]:hover {
     color: black;
     padding-top: 45px;
     padding-bottom: 40px;
-    height: 800px;
+    height: 100vh;
     background-color: rgb(241, 241, 241);
     margin-top: 50px;
 }
@@ -564,7 +564,7 @@ input[type=submit]:hover {
     position: relative;
 }
 
-.NameBlog {
+.nameblog {
     color: white;
     position: absolute;
     padding: 10%;
@@ -584,7 +584,7 @@ input[type=submit]:hover {
     opacity: 1;
 }
 
-.DateBlog {
+.dateblog {
     color: white;
     position: absolute;
     padding: 10%;
@@ -604,7 +604,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#scrollToTopButton {
+#scrolltotopbutton {
     display: block;
     z-index: 99;
     transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
@@ -621,20 +621,20 @@ html {
     background-color: none;
 }
 
-#scrollToTopButton i {
+#scrolltotopbutton i {
     color: #1294b8;
     font-size: 300%;
 }
 
-#scrollToTopButton:hover,
-#scrollToTopButton:focus,
-#scrollToTopButton:focus-within {
+#scrolltotopbutton:hover,
+#scrolltotopbutton:focus,
+#scrolltotopbutton:focus-within {
     cursor: pointer;
     transform: scale(1.1);
     color: #0b596e;
 }
 
-#RotatingGearWheel {
+#rotatinggearwheel {
     display: block;
     z-index: 70;
     opacity: 0;
@@ -647,7 +647,7 @@ html {
     background-color: rgb(39, 33, 33);
 }
 
-#RotatingGearWheel i {
+#rotatinggearwheel i {
     color: #ffffff;
     font-size: 300%;
 }
@@ -967,8 +967,16 @@ footer p {
         padding-right: 10%;
     }
 
-    .hautdepage {
+    .headermain {
         text-align: center;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .hautdepage img {
+        font-size: 40px;
+        padding: 3%;
     }
 
     .hautdepage h1 {
@@ -979,18 +987,14 @@ footer p {
         padding-right: 0px;
     }
 
-    .hautdepage img {
-        width: 110%;
-    }
-
     /* product features & cards css................................................................................*/
 
-    .ProductsFeatures h2 {
+    .productsfeatures h2 {
         padding-left: 10%;
         padding-right: 10%;
     }
 
-    .ProductsFeatures p {
+    .productsfeatures p {
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -1060,34 +1064,34 @@ footer p {
         padding-bottom: 30px;
     }
 
-    .pdp {
+    .member {
         width: 50%;
     }
 
-    .pdp-text1 h2 {
+    .member-text1 h2 {
         font-size: 200%;
     }
 
-    .pdp-text1 p {
+    .member-text1 p {
         font-size: 130%;
     }
 
-    .pp img {
+    .portrait img {
         filter: grayscale(0);
     }
 
-    .pp img:hover {
+    .portrait:hover img:hover {
         transform: scale(1);
     }
 
-    .pp .reseaux {
+    .portrait .reseaux {
         top: 30%;
         left: 7%;
         opacity: 1;
 
     }
 
-    .pp:hover .reseaux {
+    .portrait:hover .reseaux {
         transform: translate(0%, 0%);
         opacity: 1;
     }
