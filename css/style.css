@@ -634,6 +634,24 @@ html {
     color: #0b596e;
 }
 
+#RotatingGearWheel {
+    display: block;
+    z-index: 70;
+    opacity: 0;
+    position: fixed;
+    right: 30px;
+    border: none;
+    outline: none;
+
+    padding: 8px;
+    background-color: rgb(39, 33, 33);
+}
+
+#RotatingGearWheel i {
+    color: #ffffff;
+    font-size: 300%;
+}
+
 /* CREATIVITY AND STATS CSS ................................................................................*/
 
 
