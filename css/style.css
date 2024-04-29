@@ -23,7 +23,7 @@
 
 /* HEADER CSS ..................................................................................*/
 
-header {
+topheader {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -34,7 +34,7 @@ header {
     font-size: large;
 }
 
-header .navbar {
+topheader .navbar {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -45,23 +45,23 @@ header .navbar {
     display: none;
 }
 
-header a {
+topheader a {
     color: white;
 }
 
-header a:link {
+topheader a:link {
     text-decoration: none;
 }
 
-header a:visited {
+topheader a:visited {
     text-decoration: none;
 }
 
-header a:hover {
+topheader a:hover {
     text-decoration: none;
 }
 
-header a:active {
+topheader a:active {
     text-decoration: none;
 }
 
@@ -404,7 +404,7 @@ input[type=submit]:hover {
     background: #0000008a;
 }
 
-.sectionParallax h1 {
+.sectionParallax h2 {
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
