@@ -170,7 +170,7 @@ input[type=submit]:hover {
 }
 
 
-.ProductsFeatures h1 {
+.ProductsFeatures h2 {
     font-size: 200%;
     text-align: center;
     color: black;
@@ -231,6 +231,40 @@ input[type=submit]:hover {
     padding-top: 5px;
     padding-bottom: 7px;
 }
+
+/* HOW IT WORKS CSS ................................................................................*/
+
+#howitworks {
+    text-align: center;
+    color: black;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    height: 800px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 50px;
+}
+
+.howitworks h2 {
+    font-size: 200%;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.howitworks p {
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(46, 46, 46);
+    padding-top: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
 
 /* TEAM CSS ................................................................................*/
 
@@ -672,7 +706,7 @@ html {
     transform: scale(1.1);
 }
 
-/* PRICE CSS ................................................................................*/
+/* PRICING CSS ................................................................................*/
 
 
 .ourPricing {
@@ -949,6 +983,40 @@ footer p {
 
     .card {
         padding: 6% 2%;
+    }
+
+
+    /* how it works css ................................................................................*/
+
+    #howitworks {
+        text-align: center;
+        color: black;
+        padding-top: 45px;
+        padding-bottom: 40px;
+        height: 800px;
+        background-color: rgb(241, 241, 241);
+        margin-top: 50px;
+    }
+
+    .howitworks h2 {
+        font-size: 200%;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .howitworks p {
+        display: flex;
+        font-size: 150%;
+        justify-content: center;
+        align-items: center;
+        color: rgb(46, 46, 46);
+        padding-top: 15px;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     /* team css ................................................................................*/
